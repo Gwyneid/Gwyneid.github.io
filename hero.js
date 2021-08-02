@@ -15,7 +15,7 @@ class hero{
     }
 }
 let Warrior = new hero("Warrior", 165, 0, 3, 4, [], 0, 100, "assets/gifs/hero.gif");
-let Mage = new hero("Mage", 100, 0, 4, 4, [], 0, 100, "assets/gifs/hero2.gif"); 
+let Mage = new hero("Mage", 130, 0, 4, 4, [], 0, 100, "assets/gifs/hero2.gif"); 
 
 
 //делаем массив героев
