@@ -20,10 +20,10 @@ ul{
   background-size: cover;
 }
 
-* { padding: 0; margin: 0; }
+* { padding: 0; }
 
 .menu {
-  background-color: lightslategray;
+  background-color: whitesmoke;
   height: 440px;
   width: 700px;
   display: block;
@@ -35,7 +35,7 @@ ul{
 
 .caption {
   padding: 5px;
-  background-color: #94651F;
+  background-color: dimgray;
   margin: -5px;
 }
 .play {
@@ -48,7 +48,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 .options {
   padding: 5px;
@@ -60,7 +60,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 .about {
   padding: 5px;
@@ -72,13 +72,13 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 
 .hero {
   background-image: url(./assets/hero.gif);
     bottom: 130px;
-    left: 30%;
+    left: 300px;
     align-items: center;
     position: absolute;
 }
@@ -86,7 +86,7 @@ ul{
 .enemy {
   background-image: url(./assets/enemy.gif);
     bottom: 130px;
-    right: 30%;
+    right: 300px;
     align-items: center;
     position: absolute;
 }
@@ -100,7 +100,7 @@ ul{
 }*/
 
 h1 {
-  color: aqua;
+  color: white;
   text-align: center;
   top: 100px;
 }
@@ -144,16 +144,7 @@ button {
   left: 50%;
   position: absolute;
   margin-right: -50%;
-  transform: translate(-50%, 0%)
-}
-
-#chooseCardOnScreen {  
-  top: 100px;
-  left: 50%;
-  text-align: center;
-  position: absolute;
-  margin-right: -50%;
-  transform: translate(-50%, 0%)
+  transform: translate(-50%, -50%)
 }
 
 #heroParams {
@@ -204,20 +195,20 @@ button {
   position: absolute;
   bottom: 20px;
   right: 40px;
-  font-size: 30;
+  font-size: 30px;
 }
 
 .textHappening {  
   text-align: center;
   position: relative;
   top: 20%;
-  font-size: 25;
+  font-size: 25px;
 }
 
 #choose {
   position: absolute;
   left: 35%;
   top: 40%;
-  font-size: 40;
+  font-size: 40px;
   color: aqua;
 }
