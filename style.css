@@ -48,7 +48,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 .options {
   padding: 5px;
@@ -60,7 +60,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 .about {
   padding: 5px;
@@ -72,7 +72,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(68, 177, 122);
+  background-color: rgb(220, 50, 50);
 }
 
 .hero {
@@ -187,19 +187,19 @@ button {
   position: absolute;
   bottom: 20px;
   left: 30px;
-  font-size: 30;
+  font-size: 30px;
 }
 
 .rightButton {  
   position: absolute;
   bottom: 20px;
   right: 40px;
-  font-size: 30;
+  font-size: 30px;
 }
 
 .textHappening {  
   text-align: center;
   position: relative;
   top: 20%;
-  font-size: 25;
+  font-size: 25px;
 }
