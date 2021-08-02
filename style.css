@@ -78,7 +78,7 @@ ul{
 .hero {
   background-image: url(./assets/hero.gif);
     bottom: 130px;
-    left: 300px;
+    left: 30%;
     align-items: center;
     position: absolute;
 }
@@ -86,7 +86,7 @@ ul{
 .enemy {
   background-image: url(./assets/enemy.gif);
     bottom: 130px;
-    right: 300px;
+    right: 30%;
     align-items: center;
     position: absolute;
 }
@@ -144,7 +144,16 @@ button {
   left: 50%;
   position: absolute;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, 0%)
+}
+
+#chooseCardOnScreen {  
+  top: 100px;
+  left: 50%;
+  text-align: center;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, 0%)
 }
 
 #heroParams {
