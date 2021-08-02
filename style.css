@@ -20,10 +20,10 @@ ul{
   background-size: cover;
 }
 
-* { padding: 0; }
+* { padding: 0; margin: 0; }
 
 .menu {
-  background-color: whitesmoke;
+  background-color: lightslategray;
   height: 440px;
   width: 700px;
   display: block;
@@ -35,7 +35,7 @@ ul{
 
 .caption {
   padding: 5px;
-  background-color: dimgray;
+  background-color: #94651F;
   margin: -5px;
 }
 .play {
@@ -48,7 +48,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(220, 50, 50);
+  background-color: rgb(68, 177, 122);
 }
 .options {
   padding: 5px;
@@ -60,7 +60,7 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(220, 50, 50);
+  background-color: rgb(68, 177, 122);
 }
 .about {
   padding: 5px;
@@ -72,13 +72,13 @@ ul{
   padding: 5px;
   margin: 10px;
   margin-top: 20px;
-  background-color: rgb(220, 50, 50);
+  background-color: rgb(68, 177, 122);
 }
 
 .hero {
   background-image: url(./assets/hero.gif);
     bottom: 130px;
-    left: 30%;
+    left: 300px;
     align-items: center;
     position: absolute;
 }
@@ -86,7 +86,7 @@ ul{
 .enemy {
   background-image: url(./assets/enemy.gif);
     bottom: 130px;
-    right: 30%;
+    right: 300px;
     align-items: center;
     position: absolute;
 }
@@ -100,7 +100,7 @@ ul{
 }*/
 
 h1 {
-  color: white;
+  color: aqua;
   text-align: center;
   top: 100px;
 }
@@ -129,10 +129,11 @@ button {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%) 
 }
 
 #gameField {  
+  visibility: hidden;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -143,18 +144,8 @@ button {
   left: 50%;
   position: absolute;
   margin-right: -50%;
-  transform: translate(-50%, 0%)
+  transform: translate(-50%, -50%)
 }
-
-#chooseCardOnScreen {
-  top: 100px;
-  left: 50%;
-  position: absolute;
-  margin-right: -50%;
-  text-align: center;
-  transform: translate(-50%, 0%)
-}
-  
 
 #heroParams {
   background-image: url(./assets/scroll.png);
@@ -197,19 +188,27 @@ button {
   position: absolute;
   bottom: 20px;
   left: 30px;
-  font-size: 30px;
+  font-size: 30;
 }
 
 .rightButton {  
   position: absolute;
   bottom: 20px;
   right: 40px;
-  font-size: 30px;
+  font-size: 30;
 }
 
 .textHappening {  
   text-align: center;
   position: relative;
   top: 20%;
-  font-size: 25px;
+  font-size: 25;
+}
+
+#choose {
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  font-size: 40;
+  color: aqua;
 }
