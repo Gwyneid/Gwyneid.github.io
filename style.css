@@ -146,6 +146,14 @@ button {
   transform: translate(-50%, 0%)
 }
 
+#chooseCardOnScreen {
+  top: 100px;
+  left: 50%;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, 0%)
+}
+
 #heroParams {
   background-image: url(./assets/scroll.png);
   height: 150px;
