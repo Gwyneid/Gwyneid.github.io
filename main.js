@@ -222,6 +222,19 @@ function round(hero, enemy, deckCardActive, deckCardPassive, handCard, numberRou
             let everything = document.getElementById("everything");
             let gameField = document.getElementById("gameField");
             everything.removeChild(gameField);
+		
+	    let heroImg = document.createElement("img");
+            if (hero.name =="Warrior") {
+            heroImg.src = "assets/gifs/hero_dead.gif";
+            } else {
+                heroImg.src = "assets/gifs/hero2_dead.gif";
+            }
+            let heroOnScreen = document.createElement("div");
+            heroOnScreen.id = "heroOnScreen";
+            heroOnScreen.classList.add('hero');
+
+            heroOnScreen.appendChild(heroImg);
+            everything.appendChild(heroOnScreen);
             
             let chooseDiv = document.createElement("div");
             chooseDiv.className = "chooseHappening";
